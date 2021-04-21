@@ -7,5 +7,8 @@ public class Main {
         System.out.println(message.endsWith("!!"));
         System.out.println(message.startsWith("!!"));
         System.out.println(message.length());
+        System.out.println(message.indexOf("H"));
+        System.out.println(message.indexOf("sky"));
+        System.out.println(message.replace("!", "*"));
     }
 }
