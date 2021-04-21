@@ -10,5 +10,6 @@ public class Main {
         System.out.println(message.indexOf("H"));
         System.out.println(message.indexOf("sky"));
         System.out.println(message.replace("!", "*"));
+        System.out.println(message);
     }
 }
