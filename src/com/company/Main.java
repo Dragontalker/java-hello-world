@@ -5,7 +5,9 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        int x = (10 + 3) * 2;
-        System.out.println(x);
+        // Implicit casting
+        short x = 1;
+        int y = x + 2;
+        System.out.println(y);
     }
 }
