@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        int result = Math.max(1, 2);
+        double result = Math.random();
         System.out.println(result);
     }
 }
