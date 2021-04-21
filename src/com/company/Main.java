@@ -8,7 +8,7 @@ public class Main {
         // Implicit casting
         // byte > short > int > long > float > double
         double x = 1.1;
-        double y = x + 2;
+        int y = (int)x + 2;
         System.out.println(y);
     }
 }
