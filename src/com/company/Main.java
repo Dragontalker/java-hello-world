@@ -7,6 +7,7 @@ public class Main {
         long viewsCount = 3_123_456_789L;
         float price = 10.99F;
         char letter = 'A';
-        System.out.println(letter);
+        boolean isEligible = false;
+        System.out.println(isEligible);
     }
 }
